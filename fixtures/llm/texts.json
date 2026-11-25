@@ -1,0 +1,533 @@
+{
+ "_note": "Template-generated stand-ins for model answers, not real Claude output.",
+ "_planted": [
+  {
+   "sku": "VH-10027",
+   "kind": "changed_length",
+   "should_block": true
+  },
+  {
+   "sku": "NF-10090",
+   "kind": "wrong_weight_unit",
+   "should_block": true
+  },
+  {
+   "sku": "OW-10175",
+   "kind": "vde_claim",
+   "should_block": true
+  },
+  {
+   "sku": "VH-10208",
+   "kind": "rust_claim",
+   "should_block": true
+  },
+  {
+   "sku": "BW-10275",
+   "kind": "warranty_claim",
+   "should_block": true
+  },
+  {
+   "sku": "VH-10338",
+   "kind": "title_too_long",
+   "should_block": true
+  },
+  {
+   "sku": "NF-10385",
+   "kind": "bullet_dash",
+   "should_block": true
+  },
+  {
+   "sku": "BW-10532",
+   "kind": "wrong_pieces",
+   "should_block": true
+  },
+  {
+   "sku": "OW-10475",
+   "kind": "link",
+   "should_block": true
+  },
+  {
+   "sku": "KB-10537",
+   "kind": "prose_not_json",
+   "should_block": true
+  },
+  {
+   "sku": "KB-10058",
+   "kind": "unit_converted_ok",
+   "should_block": false
+  },
+  {
+   "sku": "OW-10125",
+   "kind": "unit_converted_ok",
+   "should_block": false
+  },
+  {
+   "sku": "VH-10182",
+   "kind": "natural_phrasing_ok",
+   "should_block": false
+  },
+  {
+   "sku": "VH-10239",
+   "kind": "natural_phrasing_ok",
+   "should_block": false
+  },
+  {
+   "sku": "BW-10352",
+   "kind": "natural_phrasing_ok",
+   "should_block": false
+  }
+ ],
+ "BW-10004": {
+  "raw": "{\"titel\": \"Brennwald Bit-Set 61-teilig, PH/PZ/TX gemischt, S2-Stahl\", \"kurzbeschreibung\": \"Bit-Set mit 61 Teilen, Bits in der Ausführung PH/PZ/TX gemischt. Material: S2-Stahl. Länge der Box 200 mm, Gewicht 410 g.\", \"fehlende_angaben\": []}"
+ },
+ "KB-10012": {
+  "raw": "{\"titel\": \"Ferrox Schraubendreher Schlitz 5,5 x 125 mm, Chrom-Vanadium-Stahl\", \"kurzbeschreibung\": \"Schraubendreher mit Schlitz-Profil, Klingenbreite 5,5 mm, Länge 125 mm. Material: Chrom-Vanadium-Stahl. Gewicht 103 g.\", \"fehlende_angaben\": []}"
+ },
+ "NF-10020": {
+  "raw": "{\"titel\": \"Nordfels Schraubendreher PH3 8 x 150 mm, Chrom-Vanadium-Stahl\", \"kurzbeschreibung\": \"Schraubendreher mit PH3-Profil, Klingenbreite 8 mm, Länge 150 mm. Material: Chrom-Vanadium-Stahl. Gewicht 122 g.\", \"fehlende_angaben\": []}"
+ },
+ "VH-10027": {
+  "raw": "{\"titel\": \"Varnhold Metallbohrer HSS-Co Ø 6 mm, Länge 84 mm\", \"kurzbeschreibung\": \"Metallbohrer mit 6 mm Durchmesser und 89 mm Gesamtlänge. Material: HSS-Co. Gewicht 14 g.\", \"fehlende_angaben\": []}"
+ },
+ "BW-10030": {
+  "raw": "{\"titel\": \"Brennwald Steckschlüsseleinsatz 1/4 Zoll Antrieb, SW 7 mm, Chrom-Vanadium-Stahl\", \"kurzbeschreibung\": \"Steckschlüsseleinsatz für 1/4 Zoll Antrieb, Schlüsselweite 7 mm, Länge 25 mm. Material: Chrom-Vanadium-Stahl. Gewicht 18 g.\", \"fehlende_angaben\": []}"
+ },
+ "KB-10032": {
+  "raw": "{\"titel\": \"Ferrox Metallbohrer HSS Ø 10 mm, Länge 120 mm\", \"kurzbeschreibung\": \"Metallbohrer mit 10 mm Durchmesser und 120 mm Gesamtlänge. Material: HSS. Gewicht 36 g.\", \"fehlende_angaben\": []}"
+ },
+ "NF-10037": {
+  "raw": "{\"titel\": \"Nordfels Metallbohrer HSS-Co Ø 3 mm, Länge 57 mm\", \"kurzbeschreibung\": \"Metallbohrer mit 3 mm Durchmesser und 57 mm Gesamtlänge. Material: HSS-Co. Gewicht 4 g.\", \"fehlende_angaben\": []}"
+ },
+ "BW-10052": {
+  "raw": "{\"titel\": \"Brennwald Schraubendreher PH2 6 x 100 mm, Chrom-Vanadium-Stahl\", \"kurzbeschreibung\": \"Schraubendreher mit PH2-Profil, Klingenbreite 6 mm, Länge 100 mm. Material: Chrom-Vanadium-Stahl. Gewicht 93 g.\", \"fehlende_angaben\": []}"
+ },
+ "KB-10058": {
+  "raw": "{\"titel\": \"Kesselbach Pro Metallbohrer HSS Ø 8 mm, Länge 102 mm\", \"kurzbeschreibung\": \"Metallbohrer mit 8 mm Durchmesser und 10,2 cm Gesamtlänge. Material: HSS. Gewicht 23 g.\", \"fehlende_angaben\": []}"
+ },
+ "OW-10075": {
+  "raw": "{\"titel\": \"Ostwerk Doppelmaul 8 x 9 mm, Länge 168 mm, Chrom-Vanadium-Stahl\", \"kurzbeschreibung\": \"Doppelmaulschlüssel mit den Schlüsselweiten aus der Ausführung Doppelmaul 8 x 9 mm, Länge 168 mm. Material: Chrom-Vanadium-Stahl. Gewicht 46 g.\", \"fehlende_angaben\": []}"
+ },
+ "VH-10083": {
+  "raw": "{\"titel\": \"Varnhold Metallbohrer HSS-Co Ø 2 mm, Länge 48 mm\", \"kurzbeschreibung\": \"Metallbohrer mit 2 mm Durchmesser und 48 mm Gesamtlänge. Material: HSS-Co. Gewicht 2 g.\", \"fehlende_angaben\": []}"
+ },
+ "BW-10087": {
+  "raw": "{\"titel\": \"Brennwald Metallbohrer HSS Ø 12 mm, Länge 138 mm\", \"kurzbeschreibung\": \"Metallbohrer mit 12 mm Durchmesser und 138 mm Gesamtlänge. Material: HSS. Gewicht 51 g.\", \"fehlende_angaben\": []}"
+ },
+ "KB-10088": {
+  "raw": "{\"titel\": \"Kesselbach Pro Metallbohrer HSS-Co Ø 4 mm, Länge 66 mm\", \"kurzbeschreibung\": \"Metallbohrer mit 4 mm Durchmesser und 66 mm Gesamtlänge. Material: HSS-Co. Gewicht 7 g.\", \"fehlende_angaben\": []}"
+ },
+ "NF-10090": {
+  "raw": "{\"titel\": \"Nordfels Metallbohrer HSS Ø 3 mm, Länge 57 mm\", \"kurzbeschreibung\": \"Metallbohrer mit 3 mm Durchmesser und 57 mm Gesamtlänge. Material: HSS. Gewicht 0,04 kg.\", \"fehlende_angaben\": []}"
+ },
+ "VH-10102": {
+  "raw": "{\"titel\": \"Varnhold Metallbohrer HSS-Co Ø 8 mm, Länge 102 mm\", \"kurzbeschreibung\": \"Metallbohrer mit 8 mm Durchmesser und 102 mm Gesamtlänge. Material: HSS-Co. Gewicht 23 g.\", \"fehlende_angaben\": []}"
+ },
+ "BW-10105": {
+  "raw": "{\"titel\": \"Brennwald Metallbohrer HSS-Co Ø 6,5 mm, Länge 88 mm\", \"kurzbeschreibung\": \"Metallbohrer mit 6,5 mm Durchmesser und 88 mm Gesamtlänge. Material: HSS-Co. Gewicht 16 g.\", \"fehlende_angaben\": []}"
+ },
+ "KB-10114": {
+  "raw": "{\"titel\": \"Ferrox Metallbohrer HSS-Co Ø 10 mm, Länge 120 mm\", \"kurzbeschreibung\": \"Metallbohrer mit 10 mm Durchmesser und 120 mm Gesamtlänge. Material: HSS-Co. Gewicht 36 g.\", \"fehlende_angaben\": []}"
+ },
+ "OW-10125": {
+  "raw": "{\"titel\": \"Ostwerk Spitzzange 160 mm, Chrom-Vanadium-Stahl\", \"kurzbeschreibung\": \"Spitzzange mit einer Länge von 16 cm. Material: Chrom-Vanadium-Stahl. Gewicht 140 g.\", \"fehlende_angaben\": []}"
+ },
+ "BW-10133": {
+  "raw": "{\"titel\": \"Brennwald Steckschlüsseleinsatz 1/2 Zoll Antrieb, SW 13 mm, Chrom-Vanadium-Stahl\", \"kurzbeschreibung\": \"Steckschlüsseleinsatz für 1/2 Zoll Antrieb, Schlüsselweite 13 mm, Länge 38 mm. Material: Chrom-Vanadium-Stahl. Gewicht 42 g.\", \"fehlende_angaben\": []}"
+ },
+ "KB-10141": {
+  "raw": "{\"titel\": \"Kesselbach Pro Doppelmaul 14 x 15 mm, Länge 212 mm, Chrom-Vanadium-Stahl\", \"kurzbeschreibung\": \"Doppelmaulschlüssel mit den Schlüsselweiten aus der Ausführung Doppelmaul 14 x 15 mm, Länge 212 mm. Material: Chrom-Vanadium-Stahl. Gewicht 100 g.\", \"fehlende_angaben\": []}"
+ },
+ "NF-10145": {
+  "raw": "{\"titel\": \"Nordfels Doppelmaul 18 x 19 mm, Länge 242 mm, Chrom-Vanadium-Stahl\", \"kurzbeschreibung\": \"Doppelmaulschlüssel mit den Schlüsselweiten aus der Ausführung Doppelmaul 18 x 19 mm, Länge 242 mm. Material: Chrom-Vanadium-Stahl. Gewicht 152 g.\", \"fehlende_angaben\": []}"
+ },
+ "OW-10150": {
+  "raw": "{\"titel\": \"Ostwerk Doppelmaul 19 x 22 mm, Länge 265 mm, Chrom-Vanadium-Stahl\", \"kurzbeschreibung\": \"Doppelmaulschlüssel mit den Schlüsselweiten aus der Ausführung Doppelmaul 19 x 22 mm, Länge 265 mm. Material: Chrom-Vanadium-Stahl. Gewicht 199 g.\", \"fehlende_angaben\": []}"
+ },
+ "BW-10133-B": {
+  "raw": "{\"titel\": \"Brennwald Steckschlüsseleinsatz 1/2 Zoll Antrieb, SW 13 mm, Chrom-Vanadium-Stahl\", \"kurzbeschreibung\": \"Steckschlüsseleinsatz für 1/2 Zoll Antrieb, Schlüsselweite 13 mm, Länge 38 mm. Material: Chrom-Vanadium-Stahl. Gewicht 42 g.\", \"fehlende_angaben\": []}"
+ },
+ "BW-10156": {
+  "raw": "{\"titel\": \"Brennwald Steinbohrer Werkzeugstahl Ø 6,5 mm, Länge 88 mm\", \"kurzbeschreibung\": \"Steinbohrer mit 6,5 mm Durchmesser und 88 mm Gesamtlänge. Material: Werkzeugstahl. Gewicht 16 g.\", \"fehlende_angaben\": []}"
+ },
+ "KB-10165": {
+  "raw": "{\"titel\": \"Ferrox Metallbohrer HSS Ø 6,5 mm, Länge 88 mm\", \"kurzbeschreibung\": \"Metallbohrer mit 6,5 mm Durchmesser und 88 mm Gesamtlänge. Material: HSS. Gewicht 16 g.\", \"fehlende_angaben\": []}"
+ },
+ "NF-10169": {
+  "raw": "{\"titel\": \"Nordfels Steckschlüsseleinsatz 1/2 Zoll Antrieb, SW 17 mm, Chrom-Vanadium-Stahl\", \"kurzbeschreibung\": \"Steckschlüsseleinsatz für 1/2 Zoll Antrieb, Schlüsselweite 17 mm, Länge 38 mm. Material: Chrom-Vanadium-Stahl. Gewicht 66 g.\", \"fehlende_angaben\": []}"
+ },
+ "OW-10175": {
+  "raw": "{\"titel\": \"Ostwerk Kombizange 200 mm, Chrom-Vanadium-Stahl\", \"kurzbeschreibung\": \"Kombizange mit einer Länge von 200 mm. Material: Chrom-Vanadium-Stahl. Gewicht 285 g, VDE-geprüft bis 1000 V.\", \"fehlende_angaben\": []}"
+ },
+ "VH-10182": {
+  "raw": "{\"titel\": \"Varnhold Wasserpumpenzange 250 mm, Chrom-Vanadium-Stahl\", \"kurzbeschreibung\": \"Wasserpumpenzange mit einer Länge von 250 mm. Der Artikel besteht aus Chrom-Vanadium-Stahl. Gewicht 320 g.\", \"fehlende_angaben\": []}"
+ },
+ "BW-10191": {
+  "raw": "{\"titel\": \"Brennwald Metallbohrer HSS Ø 4 mm, Länge 66 mm\", \"kurzbeschreibung\": \"Metallbohrer mit 4 mm Durchmesser und 66 mm Gesamtlänge. Material: HSS. Gewicht 7 g.\", \"fehlende_angaben\": []}"
+ },
+ "KB-10198": {
+  "raw": "{\"titel\": \"Ferrox Steckschlüsseleinsatz 1/4 Zoll Antrieb, SW 13 mm, Chrom-Vanadium-Stahl\", \"kurzbeschreibung\": \"Steckschlüsseleinsatz für 1/4 Zoll Antrieb, Schlüsselweite 13 mm, Länge 25 mm. Material: Chrom-Vanadium-Stahl. Gewicht 42 g.\", \"fehlende_angaben\": []}"
+ },
+ "NF-10201": {
+  "raw": "{\"titel\": \"Nordfels Bit-Set 25-teilig, PH/PZ/TX gemischt, S2-Stahl\", \"kurzbeschreibung\": \"Bit-Set mit 25 Teilen, Bits in der Ausführung PH/PZ/TX gemischt. Material: S2-Stahl. Länge der Box 120 mm, Gewicht 135 g.\", \"fehlende_angaben\": []}"
+ },
+ "OW-10206": {
+  "raw": "{\"titel\": \"Ostwerk Wasserpumpenzange 180 mm, Chrom-Vanadium-Stahl\", \"kurzbeschreibung\": \"Wasserpumpenzange mit einer Länge von 180 mm. Material: Chrom-Vanadium-Stahl. Gewicht 165 g.\", \"fehlende_angaben\": []}"
+ },
+ "VH-10208": {
+  "raw": "{\"titel\": \"Varnhold Metallbohrer HSS Ø 2 mm, Länge 48 mm\", \"kurzbeschreibung\": \"Metallbohrer mit 2 mm Durchmesser und 48 mm Gesamtlänge, rostfrei. Material: HSS. Gewicht 2 g.\", \"fehlende_angaben\": []}"
+ },
+ "KB-10214": {
+  "raw": "{\"titel\": \"Ferrox Metallbohrer HSS-Co Ø 12 mm, Länge 138 mm\", \"kurzbeschreibung\": \"Metallbohrer mit 12 mm Durchmesser und 138 mm Gesamtlänge. Material: HSS-Co. Gewicht 51 g.\", \"fehlende_angaben\": []}"
+ },
+ "NF-10223": {
+  "raw": "{\"titel\": \"Nordfels Doppelmaul 24 x 27 mm, Länge 302 mm, Chrom-Vanadium-Stahl\", \"kurzbeschreibung\": \"Doppelmaulschlüssel mit den Schlüsselweiten aus der Ausführung Doppelmaul 24 x 27 mm, Länge 302 mm. Material: Chrom-Vanadium-Stahl. Gewicht 292 g.\", \"fehlende_angaben\": []}"
+ },
+ "OW-10231": {
+  "raw": "{\"titel\": \"Ostwerk Steckschlüsseleinsatz 1/2 Zoll Antrieb, SW 10 mm, Chrom-Vanadium-Stahl\", \"kurzbeschreibung\": \"Steckschlüsseleinsatz für 1/2 Zoll Antrieb, Schlüsselweite 10 mm, Länge 38 mm. Material: Chrom-Vanadium-Stahl. Gewicht 28 g.\", \"fehlende_angaben\": []}"
+ },
+ "VH-10239": {
+  "raw": "{\"titel\": \"Ferrox Steinbohrer Werkzeugstahl Ø 4 mm, Länge 66 mm\", \"kurzbeschreibung\": \"Steinbohrer mit 4 mm Durchmesser und 66 mm Gesamtlänge. Bestehend aus Werkzeugstahl. Gewicht 7 g.\", \"fehlende_angaben\": []}"
+ },
+ "BW-10243": {
+  "raw": "{\"titel\": \"Brennwald Bit-Set 32-teilig, PH/PZ/TX gemischt, S2-Stahl\", \"kurzbeschreibung\": \"Bit-Set mit 32 Teilen, Bits in der Ausführung PH/PZ/TX gemischt. Material: S2-Stahl. Länge der Box 140 mm, Gewicht 190 g.\", \"fehlende_angaben\": []}"
+ },
+ "NF-10257": {
+  "raw": "{\"titel\": \"Nordfels Steinbohrer Werkzeugstahl Ø 12 mm, Länge 138 mm\", \"kurzbeschreibung\": \"Steinbohrer mit 12 mm Durchmesser und 138 mm Gesamtlänge. Material: Werkzeugstahl. Gewicht 51 g.\", \"fehlende_angaben\": []}"
+ },
+ "VH-10269": {
+  "raw": "{\"titel\": \"Ferrox Seitenschneider 140 mm, Chrom-Vanadium-Stahl\", \"kurzbeschreibung\": \"Seitenschneider mit einer Länge von 140 mm. Material: Chrom-Vanadium-Stahl. Gewicht 150 g.\", \"fehlende_angaben\": []}"
+ },
+ "BW-10275": {
+  "raw": "{\"titel\": \"Brennwald Schraubendreher Schlitz 4 x 100 mm, Chrom-Vanadium-Stahl\", \"kurzbeschreibung\": \"Schraubendreher mit Schlitz-Profil, Klingenbreite 4 mm, Länge 100 mm. Material: Chrom-Vanadium-Stahl. Gewicht 87 g. Mit lebenslanger Garantie.\", \"fehlende_angaben\": []}"
+ },
+ "KB-10283": {
+  "raw": "{\"titel\": \"Kesselbach Pro Metallbohrer HSS-Co Ø 5 mm, Länge 75 mm\", \"kurzbeschreibung\": \"Metallbohrer mit 5 mm Durchmesser und 75 mm Gesamtlänge. Material: HSS-Co. Gewicht 10 g.\", \"fehlende_angaben\": []}"
+ },
+ "NF-10292": {
+  "raw": "{\"titel\": \"Nordfels Steinbohrer Werkzeugstahl Ø 8 mm, Länge 102 mm\", \"kurzbeschreibung\": \"Steinbohrer mit 8 mm Durchmesser und 102 mm Gesamtlänge. Material: Werkzeugstahl. Gewicht 23 g.\", \"fehlende_angaben\": []}"
+ },
+ "OW-10294": {
+  "raw": "{\"titel\": \"Ostwerk Doppelmaul 16 x 17 mm, Länge 228 mm, Chrom-Vanadium-Stahl\", \"kurzbeschreibung\": \"Doppelmaulschlüssel mit den Schlüsselweiten aus der Ausführung Doppelmaul 16 x 17 mm, Länge 228 mm. Material: Chrom-Vanadium-Stahl. Gewicht 125 g.\", \"fehlende_angaben\": []}"
+ },
+ "BW-10297": {
+  "raw": "{\"titel\": \"Brennwald Schraubendreher Schlitz 6,5 x 150 mm, Chrom-Vanadium-Stahl\", \"kurzbeschreibung\": \"Schraubendreher mit Schlitz-Profil, Klingenbreite 6,5 mm, Länge 150 mm. Material: Chrom-Vanadium-Stahl. Gewicht 117 g.\", \"fehlende_angaben\": []}"
+ },
+ "NF-10309": {
+  "raw": "{\"titel\": \"Nordfels Doppelmaul 6 x 7 mm, Länge 152 mm, Chrom-Vanadium-Stahl\", \"kurzbeschreibung\": \"Doppelmaulschlüssel mit den Schlüsselweiten aus der Ausführung Doppelmaul 6 x 7 mm, Länge 152 mm. Material: Chrom-Vanadium-Stahl. Gewicht 34 g.\", \"fehlende_angaben\": []}"
+ },
+ "OW-10315": {
+  "raw": "{\"titel\": \"Ostwerk Doppelmaul 10 x 11 mm, Länge 182 mm, Chrom-Vanadium-Stahl\", \"kurzbeschreibung\": \"Doppelmaulschlüssel mit den Schlüsselweiten aus der Ausführung Doppelmaul 10 x 11 mm, Länge 182 mm. Material: Chrom-Vanadium-Stahl. Gewicht 61 g.\", \"fehlende_angaben\": []}"
+ },
+ "BW-10323": {
+  "raw": "{\"titel\": \"Brennwald Kombizange 180 mm, Chrom-Vanadium-Stahl\", \"kurzbeschreibung\": \"Kombizange mit einer Länge von 180 mm. Material: Chrom-Vanadium-Stahl. Gewicht 230 g.\", \"fehlende_angaben\": []}"
+ },
+ "KB-10328": {
+  "raw": "{\"titel\": \"Ferrox Spitzzange 200 mm, Chrom-Vanadium-Stahl\", \"kurzbeschreibung\": \"Spitzzange mit einer Länge von 200 mm. Material: Chrom-Vanadium-Stahl. Gewicht 175 g.\", \"fehlende_angaben\": []}"
+ },
+ "NF-10329": {
+  "raw": "{\"titel\": \"Nordfels Schraubendreher Schlitz 8 x 175 mm, Chrom-Vanadium-Stahl\", \"kurzbeschreibung\": \"Schraubendreher mit Schlitz-Profil, Klingenbreite 8 mm, Länge 175 mm. Material: Chrom-Vanadium-Stahl. Gewicht 133 g.\", \"fehlende_angaben\": []}"
+ },
+ "VH-10338": {
+  "raw": "{\"titel\": \"Ferrox Wasserpumpenzange 300 mm, Chrom-Vanadium-Stahl für Werkstatt, Montage, Industrie und Heimwerker\", \"kurzbeschreibung\": \"Wasserpumpenzange mit einer Länge von 300 mm. Material: Chrom-Vanadium-Stahl. Gewicht 455 g.\", \"fehlende_angaben\": []}"
+ },
+ "BW-10343": {
+  "raw": "{\"titel\": \"Brennwald Bit-Set 19-teilig, PH/PZ/TX gemischt, S2-Stahl\", \"kurzbeschreibung\": \"Bit-Set mit 19 Teilen, Bits in der Ausführung PH/PZ/TX gemischt. Material: S2-Stahl. Länge der Box 115 mm, Gewicht 120 g.\", \"fehlende_angaben\": []}"
+ },
+ "NF-10345": {
+  "raw": "{\"titel\": \"Nordfels Steckschlüsseleinsatz 1/4 Zoll Antrieb, SW 6 mm, Chrom-Vanadium-Stahl\", \"kurzbeschreibung\": \"Steckschlüsseleinsatz für 1/4 Zoll Antrieb, Schlüsselweite 6 mm, Länge 25 mm. Material: Chrom-Vanadium-Stahl. Gewicht 15 g.\", \"fehlende_angaben\": []}"
+ },
+ "VH-10351": {
+  "raw": "{\"titel\": \"Ferrox Metallbohrer HSS Ø 5 mm, Länge 75 mm\", \"kurzbeschreibung\": \"Metallbohrer mit 5 mm Durchmesser und 75 mm Gesamtlänge. Material: HSS. Gewicht 10 g.\", \"fehlende_angaben\": []}"
+ },
+ "BW-10352": {
+  "raw": "{\"titel\": \"Brennwald Schraubendreher PH1 5 x 80 mm, Chrom-Vanadium-Stahl\", \"kurzbeschreibung\": \"Schraubendreher mit PH1-Profil, Klingenbreite 5 mm, Länge 80 mm. Er besteht aus Chrom-Vanadium-Stahl; die Bestellnummer steht auf der Verpackung. Gewicht 81 g.\", \"fehlende_angaben\": []}"
+ },
+ "OW-10369": {
+  "raw": "{\"titel\": \"Ostwerk Bit-Set 61-teilig, PH/PZ/TX gemischt, S2-Stahl\", \"kurzbeschreibung\": \"Bit-Set mit 61 Teilen, Bits in der Ausführung PH/PZ/TX gemischt. Material: S2-Stahl. Länge der Box 200 mm, Gewicht 410 g.\", \"fehlende_angaben\": []}"
+ },
+ "VH-10371": {
+  "raw": "{\"titel\": \"Ferrox Schraubendreher Schlitz 5,5 x 125 mm, Chrom-Vanadium-Stahl\", \"kurzbeschreibung\": \"Schraubendreher mit Schlitz-Profil, Klingenbreite 5,5 mm, Länge 125 mm. Material: Chrom-Vanadium-Stahl. Gewicht 103 g.\", \"fehlende_angaben\": []}"
+ },
+ "BW-10372": {
+  "raw": "{\"titel\": \"Brennwald Schraubendreher PH3 8 x 150 mm, Chrom-Vanadium-Stahl\", \"kurzbeschreibung\": \"Schraubendreher mit PH3-Profil, Klingenbreite 8 mm, Länge 150 mm. Material: Chrom-Vanadium-Stahl. Gewicht 122 g.\", \"fehlende_angaben\": []}"
+ },
+ "KB-10381": {
+  "raw": "{\"titel\": \"Ferrox Steinbohrer Werkzeugstahl Ø 5 mm, Länge 75 mm\", \"kurzbeschreibung\": \"Steinbohrer mit 5 mm Durchmesser und 75 mm Gesamtlänge. Material: Werkzeugstahl. Gewicht 10 g.\", \"fehlende_angaben\": []}"
+ },
+ "NF-10385": {
+  "raw": "{\"titel\": \"- Nordfels Metallbohrer HSS-Co Ø 6 mm, Länge 84 mm\", \"kurzbeschreibung\": \"Metallbohrer mit 6 mm Durchmesser und 84 mm Gesamtlänge. Material: HSS-Co. Gewicht 14 g.\", \"fehlende_angaben\": []}"
+ },
+ "BW-10394": {
+  "raw": "{\"titel\": \"Brennwald Metallbohrer HSS-Co Ø 3 mm, Länge 57 mm\", \"kurzbeschreibung\": \"Metallbohrer mit 3 mm Durchmesser und 57 mm Gesamtlänge. Material: HSS-Co. Gewicht 4 g.\", \"fehlende_angaben\": []}"
+ },
+ "KB-10398": {
+  "raw": "{\"titel\": \"Ferrox Steckschlüsseleinsatz 1/2 Zoll Antrieb, SW 19 mm, Chrom-Vanadium-Stahl\", \"kurzbeschreibung\": \"Steckschlüsseleinsatz für 1/2 Zoll Antrieb, Schlüsselweite 19 mm, Länge 38 mm. Material: Chrom-Vanadium-Stahl. Gewicht 80 g.\", \"fehlende_angaben\": []}"
+ },
+ "NF-10403": {
+  "raw": "{\"titel\": \"Nordfels Bit-Set 10-teilig, PH/PZ/TX gemischt, S2-Stahl\", \"kurzbeschreibung\": \"Bit-Set mit 10 Teilen, Bits in der Ausführung PH/PZ/TX gemischt. Material: S2-Stahl. Länge der Box 60 mm, Gewicht 45 g.\", \"fehlende_angaben\": []}"
+ },
+ "VH-10416": {
+  "raw": "{\"titel\": \"Ferrox Metallbohrer HSS Ø 8 mm, Länge 102 mm\", \"kurzbeschreibung\": \"Metallbohrer mit 8 mm Durchmesser und 102 mm Gesamtlänge. Material: HSS. Gewicht 23 g.\", \"fehlende_angaben\": []}"
+ },
+ "BW-10421": {
+  "raw": "{\"titel\": \"Brennwald Schraubendreher PZ2 6 x 100 mm, Chrom-Vanadium-Stahl\", \"kurzbeschreibung\": \"Schraubendreher mit PZ2-Profil, Klingenbreite 6 mm, Länge 100 mm. Material: Chrom-Vanadium-Stahl. Gewicht 93 g.\", \"fehlende_angaben\": []}"
+ },
+ "KB-10426": {
+  "raw": "{\"titel\": \"Ferrox Doppelmaul 8 x 9 mm, Länge 168 mm, Chrom-Vanadium-Stahl\", \"kurzbeschreibung\": \"Doppelmaulschlüssel mit den Schlüsselweiten aus der Ausführung Doppelmaul 8 x 9 mm, Länge 168 mm. Material: Chrom-Vanadium-Stahl. Gewicht 46 g.\", \"fehlende_angaben\": []}"
+ },
+ "NF-10429": {
+  "raw": "{\"titel\": \"Nordfels Metallbohrer HSS-Co Ø 2 mm, Länge 48 mm\", \"kurzbeschreibung\": \"Metallbohrer mit 2 mm Durchmesser und 48 mm Gesamtlänge. Material: HSS-Co. Gewicht 2 g.\", \"fehlende_angaben\": []}"
+ },
+ "OW-10433": {
+  "raw": "{\"titel\": \"Ostwerk Metallbohrer HSS Ø 12 mm, Länge 138 mm\", \"kurzbeschreibung\": \"Metallbohrer mit 12 mm Durchmesser und 138 mm Gesamtlänge. Material: HSS. Gewicht 51 g.\", \"fehlende_angaben\": []}"
+ },
+ "VH-10438": {
+  "raw": "{\"titel\": \"Ferrox Metallbohrer HSS-Co Ø 4 mm, Länge 66 mm\", \"kurzbeschreibung\": \"Metallbohrer mit 4 mm Durchmesser und 66 mm Gesamtlänge. Material: HSS-Co. Gewicht 7 g.\", \"fehlende_angaben\": []}"
+ },
+ "BW-10439": {
+  "raw": "{\"titel\": \"Brennwald Metallbohrer HSS Ø 3 mm, Länge 57 mm\", \"kurzbeschreibung\": \"Metallbohrer mit 3 mm Durchmesser und 57 mm Gesamtlänge. Material: HSS. Gewicht 4 g.\", \"fehlende_angaben\": []}"
+ },
+ "KB-10441": {
+  "raw": "{\"titel\": \"Ferrox Seitenschneider 160 mm, Chrom-Vanadium-Stahl\", \"kurzbeschreibung\": \"Seitenschneider mit einer Länge von 160 mm. Material: Chrom-Vanadium-Stahl. Gewicht 175 g.\", \"fehlende_angaben\": []}"
+ },
+ "NF-10450": {
+  "raw": "{\"titel\": \"Nordfels Metallbohrer HSS-Co Ø 8 mm, Länge 102 mm\", \"kurzbeschreibung\": \"Metallbohrer mit 8 mm Durchmesser und 102 mm Gesamtlänge. Material: HSS-Co. Gewicht 23 g.\", \"fehlende_angaben\": []}"
+ },
+ "VH-10460": {
+  "raw": "{\"titel\": \"Ferrox Metallbohrer HSS-Co Ø 10 mm, Länge 120 mm\", \"kurzbeschreibung\": \"Metallbohrer mit 10 mm Durchmesser und 120 mm Gesamtlänge. Material: HSS-Co. Gewicht 36 g.\", \"fehlende_angaben\": []}"
+ },
+ "BW-10465": {
+  "raw": "{\"titel\": \"Brennwald Doppelmaul 12 x 13 mm, Länge 198 mm, Chrom-Vanadium-Stahl\", \"kurzbeschreibung\": \"Doppelmaulschlüssel mit den Schlüsselweiten aus der Ausführung Doppelmaul 12 x 13 mm, Länge 198 mm. Material: Chrom-Vanadium-Stahl. Gewicht 79 g.\", \"fehlende_angaben\": []}"
+ },
+ "KB-10467": {
+  "raw": "{\"titel\": \"Kesselbach Pro Spitzzange 160 mm, Chrom-Vanadium-Stahl\", \"kurzbeschreibung\": \"Spitzzange mit einer Länge von 160 mm. Material: Chrom-Vanadium-Stahl. Gewicht 140 g.\", \"fehlende_angaben\": []}"
+ },
+ "NF-10474": {
+  "raw": "{\"titel\": \"Nordfels Steckschlüsseleinsatz 1/4 Zoll Antrieb, SW 8 mm, Chrom-Vanadium-Stahl\", \"kurzbeschreibung\": \"Steckschlüsseleinsatz für 1/4 Zoll Antrieb, Schlüsselweite 8 mm, Länge 25 mm. Material: Chrom-Vanadium-Stahl. Gewicht 21 g.\", \"fehlende_angaben\": []}"
+ },
+ "OW-10475": {
+  "raw": "{\"titel\": \"Ostwerk Steckschlüsseleinsatz 1/2 Zoll Antrieb, SW 13 mm, Chrom-Vanadium-Stahl\", \"kurzbeschreibung\": \"Steckschlüsseleinsatz für 1/2 Zoll Antrieb, Schlüsselweite 13 mm, Länge 38 mm. Material: Chrom-Vanadium-Stahl. Gewicht 42 g. Datenblatt unter www.example.invalid.\", \"fehlende_angaben\": []}"
+ },
+ "VH-10477": {
+  "raw": "{\"titel\": \"Varnhold Doppelmaul 14 x 15 mm, Länge 212 mm, Chrom-Vanadium-Stahl\", \"kurzbeschreibung\": \"Doppelmaulschlüssel mit den Schlüsselweiten aus der Ausführung Doppelmaul 14 x 15 mm, Länge 212 mm. Material: Chrom-Vanadium-Stahl. Gewicht 100 g.\", \"fehlende_angaben\": []}"
+ },
+ "BW-10480": {
+  "raw": "{\"titel\": \"Brennwald Doppelmaul 18 x 19 mm, Länge 242 mm, Chrom-Vanadium-Stahl\", \"kurzbeschreibung\": \"Doppelmaulschlüssel mit den Schlüsselweiten aus der Ausführung Doppelmaul 18 x 19 mm, Länge 242 mm. Material: Chrom-Vanadium-Stahl. Gewicht 152 g.\", \"fehlende_angaben\": []}"
+ },
+ "KB-10488": {
+  "raw": "{\"titel\": \"Ferrox Doppelmaul 19 x 22 mm, Länge 265 mm, Chrom-Vanadium-Stahl\", \"kurzbeschreibung\": \"Doppelmaulschlüssel mit den Schlüsselweiten aus der Ausführung Doppelmaul 19 x 22 mm, Länge 265 mm. Material: Chrom-Vanadium-Stahl. Gewicht 199 g.\", \"fehlende_angaben\": []}"
+ },
+ "NF-10496": {
+  "raw": "{\"titel\": \"Nordfels Steckschlüsseleinsatz 1/4 Zoll Antrieb, SW 5 mm, Chrom-Vanadium-Stahl\", \"kurzbeschreibung\": \"Steckschlüsseleinsatz für 1/4 Zoll Antrieb, Schlüsselweite 5 mm, Länge 25 mm. Material: Chrom-Vanadium-Stahl. Gewicht 13 g.\", \"fehlende_angaben\": []}"
+ },
+ "OW-10504": {
+  "raw": "{\"titel\": \"Ostwerk Steinbohrer Werkzeugstahl Ø 6,5 mm, Länge 88 mm\", \"kurzbeschreibung\": \"Steinbohrer mit 6,5 mm Durchmesser und 88 mm Gesamtlänge. Material: Werkzeugstahl. Gewicht 16 g.\", \"fehlende_angaben\": []}"
+ },
+ "BW-10508": {
+  "raw": "{\"titel\": \"Brennwald Steckschlüsseleinsatz 1/2 Zoll Antrieb, SW 17 mm, Chrom-Vanadium-Stahl\", \"kurzbeschreibung\": \"Steckschlüsseleinsatz für 1/2 Zoll Antrieb, Schlüsselweite 17 mm, Länge 38 mm. Material: Chrom-Vanadium-Stahl. Gewicht 66 g.\", \"fehlende_angaben\": []}"
+ },
+ "KB-10514": {
+  "raw": "{\"titel\": \"Kesselbach Pro Kombizange 200 mm, Chrom-Vanadium-Stahl\", \"kurzbeschreibung\": \"Kombizange mit einer Länge von 200 mm. Material: Chrom-Vanadium-Stahl. Gewicht 285 g.\", \"fehlende_angaben\": []}"
+ },
+ "NF-10520": {
+  "raw": "{\"titel\": \"Nordfels Wasserpumpenzange 250 mm, Chrom-Vanadium-Stahl\", \"kurzbeschreibung\": \"Wasserpumpenzange mit einer Länge von 250 mm. Material: Chrom-Vanadium-Stahl. Gewicht 320 g.\", \"fehlende_angaben\": []}"
+ },
+ "BW-10532": {
+  "raw": "{\"titel\": \"Brennwald Bit-Set 33-teilig, PH/PZ/TX gemischt, S2-Stahl\", \"kurzbeschreibung\": \"Bit-Set mit 25 Teilen, Bits in der Ausführung PH/PZ/TX gemischt. Material: S2-Stahl. Länge der Box 120 mm, Gewicht 135 g.\", \"fehlende_angaben\": []}"
+ },
+ "KB-10537": {
+  "raw": "Gerne! Hier ist ein Vorschlag: Ferrox Wasserpumpenzange 180 mm, Chrom-Vanadium-Stahl. Wasserpumpenzange mit einer Länge von 180 mm. Material: Chrom-Vanadium-Stahl. Gewicht 165 g."
+ },
+ "NF-10543": {
+  "raw": "{\"titel\": \"Nordfels Metallbohrer HSS Ø 2 mm, Länge 48 mm\", \"kurzbeschreibung\": \"Metallbohrer mit 2 mm Durchmesser und 48 mm Gesamtlänge. Material: HSS. Gewicht 2 g.\", \"fehlende_angaben\": []}"
+ },
+ "VH-10553": {
+  "raw": "{\"titel\": \"Varnhold Metallbohrer HSS-Co Ø 12 mm, Länge 138 mm\", \"kurzbeschreibung\": \"Metallbohrer mit 12 mm Durchmesser und 138 mm Gesamtlänge. Material: HSS-Co. Gewicht 51 g.\", \"fehlende_angaben\": []}"
+ },
+ "BW-10562": {
+  "raw": "{\"titel\": \"Brennwald Doppelmaul 24 x 27 mm, Länge 302 mm, Chrom-Vanadium-Stahl\", \"kurzbeschreibung\": \"Doppelmaulschlüssel mit den Schlüsselweiten aus der Ausführung Doppelmaul 24 x 27 mm, Länge 302 mm. Material: Chrom-Vanadium-Stahl. Gewicht 292 g.\", \"fehlende_angaben\": []}"
+ },
+ "NF-10565": {
+  "raw": "{\"titel\": \"Nordfels Steinbohrer Werkzeugstahl Ø 4 mm, Länge 66 mm\", \"kurzbeschreibung\": \"Steinbohrer mit 4 mm Durchmesser und 66 mm Gesamtlänge. Material: Werkzeugstahl. Gewicht 7 g.\", \"fehlende_angaben\": []}"
+ },
+ "OW-10566": {
+  "raw": "{\"titel\": \"Ostwerk Bit-Set 32-teilig, PH/PZ/TX gemischt, S2-Stahl\", \"kurzbeschreibung\": \"Bit-Set mit 32 Teilen, Bits in der Ausführung PH/PZ/TX gemischt. Material: S2-Stahl. Länge der Box 140 mm, Gewicht 190 g.\", \"fehlende_angaben\": []}"
+ },
+ "BW-10577": {
+  "raw": "{\"titel\": \"Brennwald Steinbohrer Werkzeugstahl Ø 12 mm, Länge 138 mm\", \"kurzbeschreibung\": \"Steinbohrer mit 12 mm Durchmesser und 138 mm Gesamtlänge. Material: Werkzeugstahl. Gewicht 51 g.\", \"fehlende_angaben\": []}"
+ },
+ "KB-10578": {
+  "raw": "{\"titel\": \"Ferrox Kombizange 160 mm, Chrom-Vanadium-Stahl\", \"kurzbeschreibung\": \"Kombizange mit einer Länge von 160 mm. Material: Chrom-Vanadium-Stahl. Gewicht 190 g.\", \"fehlende_angaben\": []}"
+ },
+ "NF-10585": {
+  "raw": "{\"titel\": \"Nordfels Seitenschneider 140 mm, Chrom-Vanadium-Stahl\", \"kurzbeschreibung\": \"Seitenschneider mit einer Länge von 140 mm. Material: Chrom-Vanadium-Stahl. Gewicht 150 g.\", \"fehlende_angaben\": []}"
+ },
+ "VH-10588": {
+  "raw": "{\"titel\": \"Varnhold Metallbohrer HSS-Co Ø 5 mm, Länge 75 mm\", \"kurzbeschreibung\": \"Metallbohrer mit 5 mm Durchmesser und 75 mm Gesamtlänge. Material: HSS-Co. Gewicht 10 g.\", \"fehlende_angaben\": []}"
+ },
+ "BW-10596": {
+  "raw": "{\"titel\": \"Brennwald Steinbohrer Werkzeugstahl Ø 8 mm, Länge 102 mm\", \"kurzbeschreibung\": \"Steinbohrer mit 8 mm Durchmesser und 102 mm Gesamtlänge. Material: Werkzeugstahl. Gewicht 23 g.\", \"fehlende_angaben\": []}"
+ },
+ "NF-10607": {
+  "raw": "{\"titel\": \"Nordfels Schraubendreher TX20 5 x 100 mm, Chrom-Vanadium-Stahl\", \"kurzbeschreibung\": \"Schraubendreher mit TX20-Profil, Klingenbreite 5 mm, Länge 100 mm. Material: Chrom-Vanadium-Stahl. Gewicht 90 g.\", \"fehlende_angaben\": []}"
+ },
+ "OW-10610": {
+  "raw": "{\"titel\": \"Ostwerk Schraubendreher Schlitz 6,5 x 150 mm, Chrom-Vanadium-Stahl\", \"kurzbeschreibung\": \"Schraubendreher mit Schlitz-Profil, Klingenbreite 6,5 mm, Länge 150 mm. Material: Chrom-Vanadium-Stahl. Gewicht 117 g.\", \"fehlende_angaben\": []}"
+ },
+ "BW-10618": {
+  "raw": "{\"titel\": \"Brennwald Doppelmaul 6 x 7 mm, Länge 152 mm, Chrom-Vanadium-Stahl\", \"kurzbeschreibung\": \"Doppelmaulschlüssel mit den Schlüsselweiten aus der Ausführung Doppelmaul 6 x 7 mm, Länge 152 mm. Material: Chrom-Vanadium-Stahl. Gewicht 34 g.\", \"fehlende_angaben\": []}"
+ },
+ "NF-10630": {
+  "raw": "{\"titel\": \"Nordfels Steckschlüsseleinsatz 1/2 Zoll Antrieb, SW 22 mm, Chrom-Vanadium-Stahl\", \"kurzbeschreibung\": \"Steckschlüsseleinsatz für 1/2 Zoll Antrieb, Schlüsselweite 22 mm, Länge 38 mm. Material: Chrom-Vanadium-Stahl. Gewicht 105 g.\", \"fehlende_angaben\": []}"
+ },
+ "OW-10633": {
+  "raw": "{\"titel\": \"Ostwerk Kombizange 180 mm, Chrom-Vanadium-Stahl\", \"kurzbeschreibung\": \"Kombizange mit einer Länge von 180 mm. Material: Chrom-Vanadium-Stahl. Gewicht 230 g.\", \"fehlende_angaben\": []}"
+ },
+ "VH-10638": {
+  "raw": "{\"titel\": \"Varnhold Spitzzange 200 mm, Chrom-Vanadium-Stahl\", \"kurzbeschreibung\": \"Spitzzange mit einer Länge von 200 mm. Material: Chrom-Vanadium-Stahl. Gewicht 175 g.\", \"fehlende_angaben\": []}"
+ },
+ "KB-10641": {
+  "raw": "{\"titel\": \"Kesselbach Pro Steinbohrer Werkzeugstahl Ø 10 mm, Länge 120 mm\", \"kurzbeschreibung\": \"Steinbohrer mit 10 mm Durchmesser und 120 mm Gesamtlänge. Material: Werkzeugstahl. Gewicht 36 g.\", \"fehlende_angaben\": []}"
+ },
+ "NF-10643": {
+  "raw": "{\"titel\": \"Nordfels Wasserpumpenzange 300 mm, Chrom-Vanadium-Stahl\", \"kurzbeschreibung\": \"Wasserpumpenzange mit einer Länge von 300 mm. Material: Chrom-Vanadium-Stahl. Gewicht 455 g.\", \"fehlende_angaben\": []}"
+ },
+ "OW-10649": {
+  "raw": "{\"titel\": \"Ostwerk Bit-Set 19-teilig, PH/PZ/TX gemischt, S2-Stahl\", \"kurzbeschreibung\": \"Bit-Set mit 19 Teilen, Bits in der Ausführung PH/PZ/TX gemischt. Material: S2-Stahl. Länge der Box 115 mm, Gewicht 120 g.\", \"fehlende_angaben\": []}"
+ },
+ "VH-10657": {
+  "raw": "{\"titel\": \"Varnhold Metallbohrer HSS Ø 6 mm, Länge 84 mm\", \"kurzbeschreibung\": \"Metallbohrer mit 6 mm Durchmesser und 84 mm Gesamtlänge. Material: HSS. Gewicht 14 g.\", \"fehlende_angaben\": []}"
+ },
+ "BW-10658": {
+  "raw": "{\"titel\": \"Brennwald Steckschlüsseleinsatz 1/4 Zoll Antrieb, SW 6 mm, Chrom-Vanadium-Stahl\", \"kurzbeschreibung\": \"Steckschlüsseleinsatz für 1/4 Zoll Antrieb, Schlüsselweite 6 mm, Länge 25 mm. Material: Chrom-Vanadium-Stahl. Gewicht 15 g.\", \"fehlende_angaben\": []}"
+ },
+ "KB-10663": {
+  "raw": "{\"titel\": \"Kesselbach Pro Bit-Set 40-teilig, PH/PZ/TX gemischt, S2-Stahl\", \"kurzbeschreibung\": \"Bit-Set mit 40 Teilen, Bits in der Ausführung PH/PZ/TX gemischt. Material: S2-Stahl. Länge der Box 160 mm, Gewicht 240 g.\", \"fehlende_angaben\": []}"
+ },
+ "NF-10668": {
+  "raw": "{\"titel\": \"Nordfels Metallbohrer HSS Ø 5 mm, Länge 75 mm\", \"kurzbeschreibung\": \"Metallbohrer mit 5 mm Durchmesser und 75 mm Gesamtlänge. Material: HSS. Gewicht 10 g.\", \"fehlende_angaben\": []}"
+ },
+ "OW-10674": {
+  "raw": "{\"titel\": \"Ostwerk Schraubendreher PH1 5 x 80 mm, Chrom-Vanadium-Stahl\", \"kurzbeschreibung\": \"Schraubendreher mit PH1-Profil, Klingenbreite 5 mm, Länge 80 mm. Material: Chrom-Vanadium-Stahl. Gewicht 81 g.\", \"fehlende_angaben\": []}"
+ },
+ "VH-10680": {
+  "raw": "{\"titel\": \"Varnhold Schraubendreher Schlitz 3 x 75 mm, Chrom-Vanadium-Stahl\", \"kurzbeschreibung\": \"Schraubendreher mit Schlitz-Profil, Klingenbreite 3 mm, Länge 75 mm. Material: Chrom-Vanadium-Stahl. Gewicht 73 g.\", \"fehlende_angaben\": []}"
+ },
+ "BW-10684": {
+  "raw": "{\"titel\": \"Brennwald Steinbohrer Werkzeugstahl Ø 6 mm, Länge 84 mm\", \"kurzbeschreibung\": \"Steinbohrer mit 6 mm Durchmesser und 84 mm Gesamtlänge. Material: Werkzeugstahl. Gewicht 14 g.\", \"fehlende_angaben\": []}"
+ },
+ "KB-10688": {
+  "raw": "{\"titel\": \"Ferrox Bit-Set 61-teilig, PH/PZ/TX gemischt, S2-Stahl\", \"kurzbeschreibung\": \"Bit-Set mit 61 Teilen, Bits in der Ausführung PH/PZ/TX gemischt. Material: S2-Stahl. Länge der Box 200 mm, Gewicht 410 g.\", \"fehlende_angaben\": []}"
+ },
+ "NF-10691": {
+  "raw": "{\"titel\": \"Nordfels Schraubendreher Schlitz 5,5 x 125 mm, Chrom-Vanadium-Stahl\", \"kurzbeschreibung\": \"Schraubendreher mit Schlitz-Profil, Klingenbreite 5,5 mm, Länge 125 mm. Material: Chrom-Vanadium-Stahl. Gewicht 103 g.\", \"fehlende_angaben\": []}"
+ },
+ "OW-10696": {
+  "raw": "{\"titel\": \"Ostwerk Schraubendreher PH3 8 x 150 mm, Chrom-Vanadium-Stahl\", \"kurzbeschreibung\": \"Schraubendreher mit PH3-Profil, Klingenbreite 8 mm, Länge 150 mm. Material: Chrom-Vanadium-Stahl. Gewicht 122 g.\", \"fehlende_angaben\": []}"
+ },
+ "BW-10707": {
+  "raw": "{\"titel\": \"Brennwald Metallbohrer HSS-Co Ø 6 mm, Länge 84 mm\", \"kurzbeschreibung\": \"Metallbohrer mit 6 mm Durchmesser und 84 mm Gesamtlänge. Material: HSS-Co. Gewicht 14 g.\", \"fehlende_angaben\": []}"
+ },
+ "OW-10727": {
+  "raw": "{\"titel\": \"Ostwerk Metallbohrer HSS-Co Ø 3 mm, Länge 57 mm\", \"kurzbeschreibung\": \"Metallbohrer mit 3 mm Durchmesser und 57 mm Gesamtlänge. Material: HSS-Co. Gewicht 4 g.\", \"fehlende_angaben\": []}"
+ },
+ "NF-10565-B": {
+  "raw": "{\"titel\": \"Nordfels Steinbohrer Werkzeugstahl Ø 4 mm, Länge 66 mm\", \"kurzbeschreibung\": \"Steinbohrer mit 4 mm Durchmesser und 66 mm Gesamtlänge. Material: Werkzeugstahl. Gewicht 7 g.\", \"fehlende_angaben\": []}"
+ },
+ "BW-10737": {
+  "raw": "{\"titel\": \"Brennwald Bit-Set 10-teilig, PH/PZ/TX gemischt, S2-Stahl\", \"kurzbeschreibung\": \"Bit-Set mit 10 Teilen, Bits in der Ausführung PH/PZ/TX gemischt. Material: S2-Stahl. Länge der Box 60 mm, Gewicht 45 g.\", \"fehlende_angaben\": []}"
+ },
+ "KB-10743": {
+  "raw": "{\"titel\": \"Ferrox Schraubendreher PH2 6 x 100 mm, Chrom-Vanadium-Stahl\", \"kurzbeschreibung\": \"Schraubendreher mit PH2-Profil, Klingenbreite 6 mm, Länge 100 mm. Material: Chrom-Vanadium-Stahl. Gewicht 93 g.\", \"fehlende_angaben\": []}"
+ },
+ "NF-10750": {
+  "raw": "{\"titel\": \"Nordfels Metallbohrer HSS Ø 8 mm, Länge 102 mm\", \"kurzbeschreibung\": \"Metallbohrer mit 8 mm Durchmesser und 102 mm Gesamtlänge. Material: HSS. Gewicht 23 g.\", \"fehlende_angaben\": []}"
+ },
+ "OW-10754": {
+  "raw": "{\"titel\": \"Ostwerk Schraubendreher PZ2 6 x 100 mm, Chrom-Vanadium-Stahl\", \"kurzbeschreibung\": \"Schraubendreher mit PZ2-Profil, Klingenbreite 6 mm, Länge 100 mm. Material: Chrom-Vanadium-Stahl. Gewicht 93 g.\", \"fehlende_angaben\": []}"
+ },
+ "VH-10758": {
+  "raw": "{\"titel\": \"Ferrox Doppelmaul 8 x 9 mm, Länge 168 mm, Chrom-Vanadium-Stahl\", \"kurzbeschreibung\": \"Doppelmaulschlüssel mit den Schlüsselweiten aus der Ausführung Doppelmaul 8 x 9 mm, Länge 168 mm. Material: Chrom-Vanadium-Stahl. Gewicht 46 g.\", \"fehlende_angaben\": []}"
+ },
+ "BW-10760": {
+  "raw": "{\"titel\": \"Brennwald Metallbohrer HSS-Co Ø 2 mm, Länge 48 mm\", \"kurzbeschreibung\": \"Metallbohrer mit 2 mm Durchmesser und 48 mm Gesamtlänge. Material: HSS-Co. Gewicht 2 g.\", \"fehlende_angaben\": []}"
+ },
+ "NF-10767": {
+  "raw": "{\"titel\": \"Nordfels Metallbohrer HSS-Co Ø 4 mm, Länge 66 mm\", \"kurzbeschreibung\": \"Metallbohrer mit 4 mm Durchmesser und 66 mm Gesamtlänge. Material: HSS-Co. Gewicht 7 g.\", \"fehlende_angaben\": []}"
+ },
+ "OW-10772": {
+  "raw": "{\"titel\": \"Ostwerk Metallbohrer HSS Ø 3 mm, Länge 57 mm\", \"kurzbeschreibung\": \"Metallbohrer mit 3 mm Durchmesser und 57 mm Gesamtlänge. Material: HSS. Gewicht 4 g.\", \"fehlende_angaben\": []}"
+ },
+ "VH-10775": {
+  "raw": "{\"titel\": \"Varnhold Seitenschneider 160 mm, Chrom-Vanadium-Stahl\", \"kurzbeschreibung\": \"Seitenschneider mit einer Länge von 160 mm. Material: Chrom-Vanadium-Stahl. Gewicht 175 g.\", \"fehlende_angaben\": []}"
+ },
+ "BW-10779": {
+  "raw": "{\"titel\": \"Brennwald Metallbohrer HSS-Co Ø 8 mm, Länge 102 mm\", \"kurzbeschreibung\": \"Metallbohrer mit 8 mm Durchmesser und 102 mm Gesamtlänge. Material: HSS-Co. Gewicht 23 g.\", \"fehlende_angaben\": []}"
+ },
+ "NF-10643-B": {
+  "raw": "{\"titel\": \"Nordfels Wasserpumpenzange 300 mm, Chrom-Vanadium-Stahl\", \"kurzbeschreibung\": \"Wasserpumpenzange mit einer Länge von 300 mm. Material: Chrom-Vanadium-Stahl. Gewicht 455 g.\", \"fehlende_angaben\": []}"
+ },
+ "BW-10243-B": {
+  "raw": "{\"titel\": \"Brennwald Bit-Set 32-teilig, PH/PZ/TX gemischt, S2-Stahl\", \"kurzbeschreibung\": \"Bit-Set mit 32 Teilen, Bits in der Ausführung PH/PZ/TX gemischt. Material: S2-Stahl. Länge der Box 140 mm, Gewicht 190 g.\", \"fehlende_angaben\": []}"
+ },
+ "OW-10797": {
+  "raw": "{\"titel\": \"Ostwerk Doppelmaul 12 x 13 mm, Länge 198 mm, Chrom-Vanadium-Stahl\", \"kurzbeschreibung\": \"Doppelmaulschlüssel mit den Schlüsselweiten aus der Ausführung Doppelmaul 12 x 13 mm, Länge 198 mm. Material: Chrom-Vanadium-Stahl. Gewicht 79 g.\", \"fehlende_angaben\": []}"
+ },
+ "NF-10816": {
+  "raw": "{\"titel\": \"Nordfels Doppelmaul 14 x 15 mm, Länge 212 mm, Chrom-Vanadium-Stahl\", \"kurzbeschreibung\": \"Doppelmaulschlüssel mit den Schlüsselweiten aus der Ausführung Doppelmaul 14 x 15 mm, Länge 212 mm. Material: Chrom-Vanadium-Stahl. Gewicht 100 g.\", \"fehlende_angaben\": []}"
+ },
+ "VH-10833": {
+  "raw": "{\"titel\": \"Varnhold Doppelmaul 19 x 22 mm, Länge 265 mm, Chrom-Vanadium-Stahl\", \"kurzbeschreibung\": \"Doppelmaulschlüssel mit den Schlüsselweiten aus der Ausführung Doppelmaul 19 x 22 mm, Länge 265 mm. Material: Chrom-Vanadium-Stahl. Gewicht 199 g.\", \"fehlende_angaben\": []}"
+ },
+ "BW-10837": {
+  "raw": "{\"titel\": \"Brennwald Steckschlüsseleinsatz 1/4 Zoll Antrieb, SW 5 mm, Chrom-Vanadium-Stahl\", \"kurzbeschreibung\": \"Steckschlüsseleinsatz für 1/4 Zoll Antrieb, Schlüsselweite 5 mm, Länge 25 mm. Material: Chrom-Vanadium-Stahl. Gewicht 13 g.\", \"fehlende_angaben\": []}"
+ },
+ "KB-10842": {
+  "raw": "{\"titel\": \"Kesselbach Pro Steinbohrer Werkzeugstahl Ø 6,5 mm, Länge 88 mm\", \"kurzbeschreibung\": \"Steinbohrer mit 6,5 mm Durchmesser und 88 mm Gesamtlänge. Material: Werkzeugstahl. Gewicht 16 g.\", \"fehlende_angaben\": []}"
+ },
+ "OW-10847": {
+  "raw": "{\"titel\": \"Ostwerk Steckschlüsseleinsatz 1/2 Zoll Antrieb, SW 17 mm, Chrom-Vanadium-Stahl\", \"kurzbeschreibung\": \"Steckschlüsseleinsatz für 1/2 Zoll Antrieb, Schlüsselweite 17 mm, Länge 38 mm. Material: Chrom-Vanadium-Stahl. Gewicht 66 g.\", \"fehlende_angaben\": []}"
+ },
+ "BW-10857": {
+  "raw": "{\"titel\": \"Brennwald Wasserpumpenzange 250 mm, Chrom-Vanadium-Stahl\", \"kurzbeschreibung\": \"Wasserpumpenzange mit einer Länge von 250 mm. Material: Chrom-Vanadium-Stahl. Gewicht 320 g.\", \"fehlende_angaben\": []}"
+ },
+ "OW-10772-B": {
+  "raw": "{\"titel\": \"Ostwerk Metallbohrer HSS Ø 3 mm, Länge 57 mm\", \"kurzbeschreibung\": \"Metallbohrer mit 3 mm Durchmesser und 57 mm Gesamtlänge. Material: HSS. Gewicht 4 g.\", \"fehlende_angaben\": []}"
+ },
+ "NF-10872": {
+  "raw": "{\"titel\": \"Nordfels Steckschlüsseleinsatz 1/4 Zoll Antrieb, SW 13 mm, Chrom-Vanadium-Stahl\", \"kurzbeschreibung\": \"Steckschlüsseleinsatz für 1/4 Zoll Antrieb, Schlüsselweite 13 mm, Länge 25 mm. Material: Chrom-Vanadium-Stahl. Gewicht 42 g.\", \"fehlende_angaben\": []}"
+ },
+ "OW-10880": {
+  "raw": "{\"titel\": \"Ostwerk Bit-Set 25-teilig, PH/PZ/TX gemischt, S2-Stahl\", \"kurzbeschreibung\": \"Bit-Set mit 25 Teilen, Bits in der Ausführung PH/PZ/TX gemischt. Material: S2-Stahl. Länge der Box 120 mm, Gewicht 135 g.\", \"fehlende_angaben\": []}"
+ },
+ "VH-10883": {
+  "raw": "{\"titel\": \"Ferrox Wasserpumpenzange 180 mm, Chrom-Vanadium-Stahl\", \"kurzbeschreibung\": \"Wasserpumpenzange mit einer Länge von 180 mm. Material: Chrom-Vanadium-Stahl. Gewicht 165 g.\", \"fehlende_angaben\": []}"
+ },
+ "BW-10884": {
+  "raw": "{\"titel\": \"Brennwald Metallbohrer HSS Ø 2 mm, Länge 48 mm\", \"kurzbeschreibung\": \"Metallbohrer mit 2 mm Durchmesser und 48 mm Gesamtlänge. Material: HSS. Gewicht 2 g.\", \"fehlende_angaben\": []}"
+ },
+ "KB-10885": {
+  "raw": "{\"titel\": \"Ferrox Doppelmaul 30 x 32 mm, Länge 340 mm, Chrom-Vanadium-Stahl\", \"kurzbeschreibung\": \"Doppelmaulschlüssel mit den Schlüsselweiten aus der Ausführung Doppelmaul 30 x 32 mm, Länge 340 mm. Material: Chrom-Vanadium-Stahl. Gewicht 404 g.\", \"fehlende_angaben\": []}"
+ },
+ "NF-10888": {
+  "raw": "{\"titel\": \"Nordfels Metallbohrer HSS-Co Ø 12 mm, Länge 138 mm\", \"kurzbeschreibung\": \"Metallbohrer mit 12 mm Durchmesser und 138 mm Gesamtlänge. Material: HSS-Co. Gewicht 51 g.\", \"fehlende_angaben\": []}"
+ },
+ "OW-10891": {
+  "raw": "{\"titel\": \"Ostwerk Doppelmaul 24 x 27 mm, Länge 302 mm, Chrom-Vanadium-Stahl\", \"kurzbeschreibung\": \"Doppelmaulschlüssel mit den Schlüsselweiten aus der Ausführung Doppelmaul 24 x 27 mm, Länge 302 mm. Material: Chrom-Vanadium-Stahl. Gewicht 292 g.\", \"fehlende_angaben\": []}"
+ },
+ "VH-10897": {
+  "raw": "{\"titel\": \"Varnhold Steckschlüsseleinsatz 1/2 Zoll Antrieb, SW 10 mm, Chrom-Vanadium-Stahl\", \"kurzbeschreibung\": \"Steckschlüsseleinsatz für 1/2 Zoll Antrieb, Schlüsselweite 10 mm, Länge 38 mm. Material: Chrom-Vanadium-Stahl. Gewicht 28 g.\", \"fehlende_angaben\": []}"
+ },
+ "BW-10898": {
+  "raw": "{\"titel\": \"Brennwald Steinbohrer Werkzeugstahl Ø 4 mm, Länge 66 mm\", \"kurzbeschreibung\": \"Steinbohrer mit 4 mm Durchmesser und 66 mm Gesamtlänge. Material: Werkzeugstahl. Gewicht 7 g.\", \"fehlende_angaben\": []}"
+ },
+ "KB-10903": {
+  "raw": "{\"titel\": \"Kesselbach Pro Bit-Set 32-teilig, PH/PZ/TX gemischt, S2-Stahl\", \"kurzbeschreibung\": \"Bit-Set mit 32 Teilen, Bits in der Ausführung PH/PZ/TX gemischt. Material: S2-Stahl. Länge der Box 140 mm, Gewicht 190 g.\", \"fehlende_angaben\": []}"
+ },
+ "NF-10912": {
+  "raw": "{\"titel\": \"Nordfels Steckschlüsseleinsatz 1/2 Zoll Antrieb, SW 24 mm, Chrom-Vanadium-Stahl\", \"kurzbeschreibung\": \"Steckschlüsseleinsatz für 1/2 Zoll Antrieb, Schlüsselweite 24 mm, Länge 38 mm. Material: Chrom-Vanadium-Stahl. Gewicht 123 g.\", \"fehlende_angaben\": []}"
+ },
+ "NF-10872-B": {
+  "raw": "{\"titel\": \"Nordfels Steckschlüsseleinsatz 1/4 Zoll Antrieb, SW 13 mm, Chrom-Vanadium-Stahl\", \"kurzbeschreibung\": \"Steckschlüsseleinsatz für 1/4 Zoll Antrieb, Schlüsselweite 13 mm, Länge 25 mm. Material: Chrom-Vanadium-Stahl. Gewicht 42 g.\", \"fehlende_angaben\": []}"
+ }
+}

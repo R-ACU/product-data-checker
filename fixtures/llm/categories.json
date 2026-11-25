@@ -1,0 +1,51 @@
+{
+ "_note": "Recorded classification answers for rows without a category.",
+ "_planted": [
+  {
+   "sku": "OW-10046",
+   "kind": "outside_taxonomy"
+  }
+ ],
+ "OW-10046": {
+  "raw": "{\"kategorie\": \"Handwerkzeug\"}"
+ },
+ "VH-10269": {
+  "raw": "{\"kategorie\": \"Zangen\"}"
+ },
+ "NF-10292": {
+  "raw": "{\"kategorie\": \"Bohrer\"}"
+ },
+ "OW-10369": {
+  "raw": "{\"kategorie\": \"Bit-Sets\"}"
+ },
+ "BW-10372": {
+  "raw": "{\"kategorie\": \"Schraubendreher\"}"
+ },
+ "KB-10441": {
+  "raw": "{\"kategorie\": \"Zangen\"}"
+ },
+ "NF-10450": {
+  "raw": "{\"kategorie\": \"Bohrer\"}"
+ },
+ "KB-10514": {
+  "raw": "{\"kategorie\": \"Zangen\"}"
+ },
+ "OW-10674": {
+  "raw": "{\"kategorie\": \"Schraubendreher\"}"
+ },
+ "VH-10775": {
+  "raw": "{\"kategorie\": \"Zangen\"}"
+ },
+ "BW-10779": {
+  "raw": "{\"kategorie\": \"Bohrer\"}"
+ },
+ "VH-10883": {
+  "raw": "{\"kategorie\": \"Zangen\"}"
+ },
+ "BW-10884": {
+  "raw": "{\"kategorie\": \"Bohrer\"}"
+ },
+ "OW-10891": {
+  "raw": "{\"kategorie\": \"Maulschlüssel\"}"
+ }
+}
