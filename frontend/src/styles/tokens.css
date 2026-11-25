@@ -1,0 +1,276 @@
+/*
+ * Design tokens, aligned with the inquiry CRM (canvas, surfaces, text, accent steps).
+ * Two layers:
+ *   1. Mode (data-mode="light" | "dark"): surfaces, text, lines, status.
+ *   2. Accent (data-theme="<firma>"): one calm, cool accent per target company, with
+ *      its own light and dark steps, plus the chart hues that go with it.
+ * Colours are six-digit hex only: tests/test_themes.py parses this file and checks
+ * every accent in both modes for WCAG AA. Transparency is applied where a colour is
+ * used (fill-opacity, color-mix), never stored here.
+ *
+ * Selection is a raised surface, never a black or white block: --pill on --seg
+ * (segmented controls, tabs) and a slightly lighter card in dark mode.
+ */
+
+/* ---------- mode: light (default) ---------- */
+:root,
+[data-mode="light"] {
+  --bg: #eceef1;
+  --card: #ffffff;
+  --card-2: #f7f8fa;
+  --muted: #f3f4f6;
+  --seg: #e3e6eb;
+  --pill: #ffffff;
+  --line: #e7e9ee;
+  --line-strong: #d4d8df;
+  --text: #0e1116;
+  --text-2: #545b67;
+  --text-3: #5f6673;
+  --grid: #edf0f4;
+  --track: #eceef2;
+  --rest: #c5ccd8;
+  --hatch: #c3cad6;
+  --danger: #c8333b;
+  --danger-soft: #fdecec;
+  --good: #11744b;
+  --good-soft: #e3f6ee;
+  --tip-bg: #ffffff;
+  --tooltip-bg: #18181b;
+  --tooltip-fg: #f4f4f5;
+  --shadow-ink: #101828;
+  /* the two review stages: quiet slate steps, so the accent alone reads as "released" */
+  --day-band: #c3cddd;
+  --review-1: #5b667a;
+  --review-2: #8890a2;
+  /* marks in generated copy: number backed by the source, number not in the source,
+     claim without evidence */
+  --mark-ok-bg: #e6f4ec;
+  --mark-ok-line: #2f8f5f;
+  --mark-bad-bg: #fde8e8;
+  --mark-bad-ink: #a3242b;
+  --mark-claim-bg: #f1ebfd;
+  --mark-claim-ink: #5b3db3;
+  /* SQL */
+  --code-bg: #f7f8fa;
+  --code-text: #2b3140;
+  --code-kw: #2450cc;
+  --code-fn: #7a3fb8;
+  --code-str: #1f7a4c;
+  --code-nm: #0a6a8c;
+  --code-cm: #5f6779;
+  /* hero card: a dark island, in light mode too */
+  --hero-bg: #18181b;
+  --hero-inner: #232327;
+  --hero-fg: #f4f4f5;
+  --hero-fg-2: #a9a9b2;
+  --hero-hatch: #4a4a52;
+}
+
+/* ---------- mode: dark ---------- */
+[data-mode="dark"] {
+  --bg: #0b0b0c;
+  --card: #18181b;
+  --card-2: #141416;
+  --muted: #222225;
+  --seg: #1d1d20;
+  --pill: #2f2f35;
+  --line: #2a2a2e;
+  --line-strong: #3d3d44;
+  --text: #f4f4f5;
+  --text-2: #b4b4bc;
+  --text-3: #95959e;
+  --grid: #26262b;
+  --track: #26262a;
+  --rest: #4b4b54;
+  --hatch: #3f3f46;
+  --danger: #f0767c;
+  --danger-soft: #3a1d20;
+  --good: #4cc98d;
+  --good-soft: #13291f;
+  --tip-bg: #222226;
+  --tooltip-bg: #2f2f35;
+  --tooltip-fg: #f4f4f5;
+  --shadow-ink: #000000;
+  --day-band: #3b3b45;
+  --review-1: #a3a3ad;
+  --review-2: #6e6e78;
+  --mark-ok-bg: #173022;
+  --mark-ok-line: #4cc98d;
+  --mark-bad-bg: #3d1c20;
+  --mark-bad-ink: #ff9ea3;
+  --mark-claim-bg: #2a2340;
+  --mark-claim-ink: #c7b4ff;
+  --code-bg: #111113;
+  --code-text: #d5dae3;
+  --code-kw: #86a5f7;
+  --code-fn: #c9a2f5;
+  --code-str: #6fd3a0;
+  --code-nm: #6cc6e8;
+  --code-cm: #8d96a6;
+  --hero-bg: #18181b;
+  --hero-inner: #232327;
+  --hero-fg: #f4f4f5;
+  --hero-fg-2: #a9a9b2;
+  --hero-hatch: #4a4a52;
+}
+
+/* ---------- accents: light ---------- */
+/* accent: marks, focus, active icons | accent-text: accent as text on cards
+   accent-soft: tinted surface | on-accent: text on accent
+   primary / on-primary: filled buttons | chart-1..3: series
+   seq-lo / seq-hi: ends of the sequential scale (heatmap)
+   hero-accent / hero-accent-2: first and second series on the dark hero card */
+:root,
+[data-theme="neutral"] {
+  --accent: #2f64ee;
+  --accent-text: #1f4fd1;
+  --accent-soft: #e6edff;
+  --on-accent: #ffffff;
+  --primary: #2f64ee;
+  --on-primary: #ffffff;
+  --chart-1: #2f64ee;
+  --chart-2: #0e9a8c;
+  --chart-3: #957ae8;
+  --seq-lo: #e6edff;
+  --seq-hi: #1d3f9e;
+  --hero-accent: #5d8bff;
+  --hero-accent-2: #bccbff;
+}
+[data-theme="gedore"] {
+  --accent: #1e4fc0;
+  --accent-text: #1e4fc0;
+  --accent-soft: #e9eefb;
+  --on-accent: #ffffff;
+  --primary: #1e4fc0;
+  --on-primary: #ffffff;
+  --chart-1: #1e4fc0;
+  --chart-2: #0e9a8c;
+  --chart-3: #8a63e0;
+  --seq-lo: #e9eefb;
+  --seq-hi: #16388a;
+  --hero-accent: #6c8ff0;
+  --hero-accent-2: #c2d0f8;
+}
+[data-theme="pohl"] {
+  --accent: #1667b8;
+  --accent-text: #1462b0;
+  --accent-soft: #e7f1fb;
+  --on-accent: #ffffff;
+  --primary: #1667b8;
+  --on-primary: #ffffff;
+  --chart-1: #1b6fc0;
+  --chart-2: #119d78;
+  --chart-3: #937de8;
+  --seq-lo: #e7f1fb;
+  --seq-hi: #0f4a85;
+  --hero-accent: #5aa7ec;
+  --hero-accent-2: #bcdcf7;
+}
+[data-theme="amalock"] {
+  --accent: #0b7a6e;
+  --accent-text: #0a7064;
+  --accent-soft: #e4f4f1;
+  --on-accent: #ffffff;
+  --primary: #0b7a6e;
+  --on-primary: #ffffff;
+  --chart-1: #08907f;
+  --chart-2: #2f5fd8;
+  --chart-3: #9c7ee6;
+  --seq-lo: #e4f4f1;
+  --seq-hi: #0a5a51;
+  --hero-accent: #3cc1b0;
+  --hero-accent-2: #b4e9e1;
+}
+[data-theme="metergrid"] {
+  --accent: #2350d8;
+  --accent-text: #2350d8;
+  --accent-soft: #eaeffd;
+  --on-accent: #ffffff;
+  --primary: #2350d8;
+  --on-primary: #ffffff;
+  --chart-1: #2350d8;
+  --chart-2: #12a06b;
+  --chart-3: #957ae8;
+  --seq-lo: #eaeffd;
+  --seq-hi: #1a3fa8;
+  --hero-accent: #6f8ff7;
+  --hero-accent-2: #c3cffb;
+}
+
+/* ---------- accents: dark ---------- */
+[data-mode="dark"],
+[data-mode="dark"][data-theme="neutral"] {
+  --accent: #5d8bff;
+  --accent-text: #9bb7ff;
+  --accent-soft: #1c2236;
+  --on-accent: #0b1020;
+  --primary: #2f64ee;
+  --on-primary: #ffffff;
+  --chart-1: #4f7cf5;
+  --chart-2: #1e9e8f;
+  --chart-3: #a68cf2;
+  --seq-lo: #26262c;
+  --seq-hi: #8fb0ff;
+  --hero-accent: #5d8bff;
+  --hero-accent-2: #bccbff;
+}
+[data-mode="dark"][data-theme="gedore"] {
+  --accent: #5479ea;
+  --accent-text: #8aa6f5;
+  --accent-soft: #1d2338;
+  --on-accent: #0b1020;
+  --primary: #1e4fc0;
+  --on-primary: #ffffff;
+  --chart-1: #4a6fe2;
+  --chart-2: #1e9e8f;
+  --chart-3: #a68cf2;
+  --seq-lo: #26262c;
+  --seq-hi: #89a8fa;
+  --hero-accent: #6c8ff0;
+  --hero-accent-2: #c2d0f8;
+}
+[data-mode="dark"][data-theme="pohl"] {
+  --accent: #3d93e0;
+  --accent-text: #78b6ef;
+  --accent-soft: #182635;
+  --on-accent: #07121f;
+  --primary: #1667b8;
+  --on-primary: #ffffff;
+  --chart-1: #3388d8;
+  --chart-2: #1e9e7a;
+  --chart-3: #a68cf2;
+  --seq-lo: #26262c;
+  --seq-hi: #7cc0f7;
+  --hero-accent: #5aa7ec;
+  --hero-accent-2: #bcdcf7;
+}
+[data-mode="dark"][data-theme="amalock"] {
+  --accent: #23ab9b;
+  --accent-text: #4fcbbb;
+  --accent-soft: #152a28;
+  --on-accent: #04120f;
+  --primary: #0b7a6e;
+  --on-primary: #ffffff;
+  --chart-1: #1fa392;
+  --chart-2: #4a76ec;
+  --chart-3: #b096ee;
+  --seq-lo: #26262c;
+  --seq-hi: #6fdccb;
+  --hero-accent: #3cc1b0;
+  --hero-accent-2: #b4e9e1;
+}
+[data-mode="dark"][data-theme="metergrid"] {
+  --accent: #5b7ff4;
+  --accent-text: #8ba3f8;
+  --accent-soft: #1d2338;
+  --on-accent: #0b1020;
+  --primary: #2350d8;
+  --on-primary: #ffffff;
+  --chart-1: #4f75f0;
+  --chart-2: #22a46f;
+  --chart-3: #a890f0;
+  --seq-lo: #26262c;
+  --seq-hi: #8ba3f8;
+  --hero-accent: #6f8ff7;
+  --hero-accent-2: #c3cffb;
+}
