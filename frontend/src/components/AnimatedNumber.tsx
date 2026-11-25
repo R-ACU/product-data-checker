@@ -1,8 +1,9 @@
 import { animate } from "motion";
-import { useEffect, useRef } from "react";
-import { useReducedMotionPref } from "@/lib/motion";
+import { useEffect, useRef, useState } from "react";
+import { useEntrance, useReducedMotionPref } from "@/lib/motion";
 
 // Counts up on first show and glides to a new value when it changes (time range).
+// Coming back to a view shows the number as it is (see EntranceContext).
 // Writes textContent directly: no re-render per frame.
 export function AnimatedNumber({
   value,
@@ -16,7 +17,9 @@ export function AnimatedNumber({
   className?: string;
 }) {
   const ref = useRef<HTMLSpanElement>(null);
-  const from = useRef(0);
+  const entrance = useEntrance();
+  const [start] = useState(() => (entrance ? 0 : value));
+  const from = useRef(start);
   const reduced = useReducedMotionPref();
 
   useEffect(() => {
@@ -42,7 +45,7 @@ export function AnimatedNumber({
 
   return (
     <span ref={ref} className={className ? `num ${className}` : "num"} aria-label={format(value)}>
-      {format(reduced ? value : 0)}
+      {format(reduced ? value : start)}
     </span>
   );
 }

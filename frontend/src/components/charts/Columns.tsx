@@ -1,6 +1,6 @@
 import { useState, type ReactNode } from "react";
 import { Bar, BarChart, CartesianGrid, Cell, ReferenceLine, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts";
-import { useReducedMotionPref } from "@/lib/motion";
+import { useChartMotion } from "@/lib/motion";
 import { AXIS_TICK, anim, axisProps, barCursor, gridProps, niceTicks, type Series } from "./common";
 
 // Vertical columns as full pills, single or stacked. A stacked column stays one pill:
@@ -37,7 +37,7 @@ export function Columns<T extends Record<string, unknown>>({
   onSelect?: (row: T, index: number) => void;
   label: string;
 }) {
-  const reduced = useReducedMotionPref();
+  const still = !useChartMotion(data);
   const [active, setActive] = useState<number | null>(null);
   const stacked = series.length > 1;
   const totals = data.map((row) =>
@@ -99,7 +99,7 @@ export function Columns<T extends Record<string, unknown>>({
               barSize={barSize}
               onClick={onSelect ? (_entry: unknown, i: number) => data[i] && onSelect(data[i], i) : undefined}
               className={onSelect ? "cursor-pointer" : undefined}
-              {...anim(reduced)}
+              {...anim(still)}
               shape={(props: unknown) => <PillStack {...(props as PillStackProps)} series={series} opacity={opacityOf} />}
             />
           ) : (
@@ -111,7 +111,7 @@ export function Columns<T extends Record<string, unknown>>({
               barSize={barSize}
               onClick={onSelect ? (_entry: unknown, i: number) => data[i] && onSelect(data[i], i) : undefined}
               className={onSelect ? "cursor-pointer" : undefined}
-              {...anim(reduced)}
+              {...anim(still)}
             >
               {data.map((row, i) => (
                 <Cell key={i} className="bar-cell" fill={colorOf ? colorOf(row, i) : series[0].color} fillOpacity={opacityOf(i)} />

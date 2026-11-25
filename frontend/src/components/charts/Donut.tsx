@@ -1,7 +1,7 @@
 import { AnimatePresence, motion } from "motion/react";
 import { useState } from "react";
 import { Cell, Pie, PieChart, ResponsiveContainer } from "recharts";
-import { CHART_MS, useReducedMotionPref } from "@/lib/motion";
+import { CHART_MS, useChartMotion } from "@/lib/motion";
 import { cn } from "@/lib/utils";
 import { AnimatedNumber } from "../AnimatedNumber";
 
@@ -31,7 +31,7 @@ export function Donut({
   format: (v: number) => string;
   size?: number;
 }) {
-  const reduced = useReducedMotionPref();
+  const chartMotion = useChartMotion(parts);
   const [active, setActive] = useState<number | null>(null);
   const total = parts.reduce((a, p) => a + p.value, 0) || 1;
   const shown = active == null ? null : parts[active];
@@ -52,7 +52,7 @@ export function Donut({
               startAngle={90}
               endAngle={-270}
               stroke="none"
-              isAnimationActive={!reduced}
+              isAnimationActive={chartMotion}
               animationDuration={CHART_MS + 150}
               animationEasing="ease-out"
               onMouseEnter={(_, i) => setActive(i)}

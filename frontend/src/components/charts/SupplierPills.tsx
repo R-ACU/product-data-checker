@@ -1,7 +1,7 @@
 import { useId, useState, type ReactNode } from "react";
 import { Bar, BarChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts";
 import { pct } from "@/lib/format";
-import { CHART_MS, useReducedMotionPref } from "@/lib/motion";
+import { CHART_MS, useChartMotion } from "@/lib/motion";
 
 // One pill per supplier on the dark hero card, all the same height: the share of the
 // list. From the bottom: released (accent), stopped at the data check (light accent),
@@ -32,7 +32,7 @@ export function SupplierPills({
   tooltip: (row: SupplierRow) => ReactNode;
   label: string;
 }) {
-  const reduced = useReducedMotionPref();
+  const chartMotion = useChartMotion(rows);
   const hatch = `sp-hatch-${useId().replace(/:/g, "")}`;
   const [active, setActive] = useState<number | null>(null);
   const data = rows.map((r) => ({ ...r, full: 1 }));
@@ -69,7 +69,7 @@ export function SupplierPills({
             dataKey="full"
             name="Anteil"
             maxBarSize={68}
-            isAnimationActive={!reduced}
+            isAnimationActive={chartMotion}
             animationDuration={CHART_MS + 100}
             animationEasing="ease-out"
             onClick={(_entry: unknown, i: number) => rows[i] && onSelect(rows[i])}

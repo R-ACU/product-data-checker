@@ -308,6 +308,58 @@ def test_range_switch_recomputes_the_hero_exactly(page, demo_url):
     expect(hero).to_contain_text("89,32")
 
 
+REVISIT_SCRIPT = """
+([route, heading]) => new Promise((resolve) => {
+  const started = performance.now();
+  const frames = [];
+  document.querySelector(`.tab[data-route="${route}"]`).click();
+  const tick = () => {
+    const view = document.querySelector("main > div");
+    if (view && view.querySelector("h1")?.textContent === heading) {
+      const moving = [...view.querySelectorAll("[style]")].filter(
+        (el) => el !== view && /translateY\\((?!0px)|translate3d\\(0px, (?!0px)|scaleY\\(0/.test(el.style.transform),
+      ).length;
+      frames.push({ numbers: [...view.querySelectorAll(".num")].map((n) => n.textContent).join("|"), moving });
+    }
+    if (performance.now() - started > 1500) return resolve(frames);
+    requestAnimationFrame(tick);
+  };
+  tick();
+})
+"""
+
+
+def test_coming_back_to_a_view_shows_it_as_it_is(page, demo_url):
+    """Numbers do not count up again, rows do not slide in again: on every tab switch that looked like loading."""
+    page.goto(demo_url)
+    expect(page.locator(".hero")).to_contain_text("119")
+    page.wait_for_timeout(1200)  # the first entrance has run
+    page.click('.tab[data-route="pruefen"]')
+    expect(page.locator("h1")).to_have_text("Prüfliste")
+    page.wait_for_timeout(1200)
+
+    frames = page.evaluate(REVISIT_SCRIPT, ["uebersicht", "Übersicht"])
+    assert frames, "the overview did not appear"
+    # Every figure on the first frame is already its final value (charts may add theirs a frame later).
+    first, last = frames[0]["numbers"].split("|"), frames[-1]["numbers"].split("|")
+    assert "119" in first
+    assert set(first) <= set(last)
+
+    frames = page.evaluate(REVISIT_SCRIPT, ["pruefen", "Prüfliste"])
+    assert frames, "the review list did not appear"
+    assert max(f["moving"] for f in frames) == 0  # no row slides in again
+
+    # Changes still animate and land exactly: the range switch on the energy view after coming back.
+    page.click('.tab[data-route="strommarkt"]')
+    page.click('.tab[data-route="sql"]')
+    page.click('.tab[data-route="strommarkt"]')
+    hero = page.locator(".hero")
+    expect(hero).to_contain_text("89,32")
+    page.get_by_role("radio", name="Q2").click()
+    expect(hero).to_contain_text("Q2 2025")
+    expect(hero).not_to_contain_text("89,32")
+
+
 def test_page_titles_and_favicon(page, demo_url):
     page.goto(demo_url)
     expect(page).to_have_title("Übersicht · Produktdaten-Prüfer")

@@ -216,7 +216,7 @@ that file. Answers are cached in `build/cache/`, so a second run costs nothing.
 ```bash
 uv run pytest                      # 272 unit and integration tests
 uv run playwright install chromium # once, for the browser tests
-uv run pytest e2e                  # 50 headless browser tests (desktop and phone, every accent, light and dark)
+uv run pytest e2e                  # 51 headless browser tests (desktop and phone, every accent, light and dark)
 uv run ruff check . && uv run ruff format --check .
 ```
 

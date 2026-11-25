@@ -1,6 +1,6 @@
 import { Area, ComposedChart, CartesianGrid, Line, ReferenceLine, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts";
 import { MONTHS, int, pct, two } from "@/lib/format";
-import { CHART_MS, useReducedMotionPref } from "@/lib/motion";
+import { CHART_MS, useChartMotion } from "@/lib/motion";
 import type { Daily } from "@/lib/types";
 import { TipCard } from "./ChartTip";
 import { axisProps, gridProps, lineCursor, niceTicks } from "./common";
@@ -18,7 +18,7 @@ export function withRollingMean(days: Daily[]): DailyWithMean[] {
 // The 7-day mean is the calm main line; the daily values stay behind it as a faint,
 // flat area. Crosshair and tooltip card show day, mean, low and high.
 export function PriceArea({ days, average, height = 300 }: { days: DailyWithMean[]; average: number; height?: number }) {
-  const reduced = useReducedMotionPref();
+  const chartMotion = useChartMotion(days);
   const firstOfMonth = days.filter((d, i) => d.day.endsWith("-01") || i === 0).map((d) => d.day);
   const vals = days.map((d) => d.avg_price_eur_mwh);
   const ticks = niceTicks(Math.min(...vals), Math.max(...vals), 6);
@@ -79,7 +79,7 @@ export function PriceArea({ days, average, height = 300 }: { days: DailyWithMean
             fillOpacity={0.35}
             dot={false}
             activeDot={false}
-            isAnimationActive={!reduced}
+            isAnimationActive={chartMotion}
             animationDuration={CHART_MS}
             animationEasing="ease-out"
           />
@@ -92,7 +92,7 @@ export function PriceArea({ days, average, height = 300 }: { days: DailyWithMean
             strokeLinecap="round"
             dot={false}
             activeDot={{ r: 5, fill: "var(--chart-1)", stroke: "var(--card)", strokeWidth: 2.5 }}
-            isAnimationActive={!reduced}
+            isAnimationActive={chartMotion}
             animationDuration={CHART_MS + 350}
             animationBegin={120}
             animationEasing="ease-out"
