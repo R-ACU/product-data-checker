@@ -1,0 +1,50 @@
+name: tests
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      # Actions pinned to commit SHAs (tag in the comment); Dependabot keeps them current.
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+        with:
+          persist-credentials: false
+      - uses: astral-sh/setup-uv@d0cc045d04ccac9d8b7881df0226f9e82c39688e # v6.8.0
+        with:
+          python-version: "3.13"
+      - uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6.5.0
+        with:
+          node-version: "24"
+          cache: npm
+          cache-dependency-path: frontend/package-lock.json
+      - name: Install
+        run: uv sync --all-groups --locked
+      - name: Frontend (type check, build, committed build is current)
+        working-directory: frontend
+        run: |
+          npm ci
+          npm audit --audit-level=high --omit=dev
+          npm run build
+          git diff --exit-code -- ../src/product_data_checker/dashboard/web
+      - name: Lint
+        run: |
+          uv run ruff check .
+          uv run ruff format --check .
+      - name: Dependency audit
+        run: |
+          uv export --format requirements-txt --no-hashes --no-emit-project --all-groups > "$RUNNER_TEMP/requirements.txt"
+          uvx pip-audit --strict --disable-pip --no-deps -r "$RUNNER_TEMP/requirements.txt"
+      - name: Unit and integration tests
+        run: uv run pytest
+      - name: Build (mock mode, no API key)
+        run: uv run pdc build
+      - name: Browser tests
+        run: |
+          uv run playwright install --with-deps chromium
+          uv run pytest e2e
