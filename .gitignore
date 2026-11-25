@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+.coverage.*
+htmlcov/
+*.egg-info/
+dist/
+
+# Build output (Excel, CSV, dashboard, model cache)
+build/
+
+# Node, in case tooling is added later
+node_modules/
+
+# Secrets: every .env file except the example
+.env*
+!.env.example
+
+# Test tool output
+test-results/
+playwright-report/
+
+# Local review captures (the curated screenshots live in docs/screenshots/)
+docs/review/
+
+# Local agent notes, never part of this repo
+AGENTS.md
+CLAUDE.md
+TODO.md
+
+# OS
+.DS_Store
+Thumbs.db
+
+# TypeScript build info
+*.tsbuildinfo

@@ -1,0 +1,47 @@
+[project]
+name = "product-data-checker"
+version = "0.1.0"
+description = "Cleans a messy supplier product list, writes guarded product copy and reports data-quality KPIs in SQL (DuckDB)."
+requires-python = ">=3.13,<3.14"
+dependencies = [
+    "pandas>=2.2",
+    "duckdb>=1.1",
+    "openpyxl>=3.1",
+    "pydantic>=2.8",
+    "anthropic>=0.70",
+    "python-dotenv>=1.0",
+    "defusedxml>=0.7",
+]
+
+[project.scripts]
+pdc = "product_data_checker.cli:main"
+
+[dependency-groups]
+dev = [
+    "pytest>=8.3",
+    "ruff>=0.6",
+]
+e2e = [
+    "playwright>=1.48",
+]
+
+[build-system]
+requires = ["uv_build>=0.12.10,<0.13.0"]
+build-backend = "uv_build"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
+
+[tool.ruff]
+line-length = 100
+target-version = "py313"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP", "S", "SIM"]
+ignore = ["S101", "E501"]  # line width is enforced by ruff format; long strings may stay
+
+[tool.ruff.lint.per-file-ignores]
+"tests/**" = ["S"]
+"e2e/**" = ["S"]
+"scripts/**" = ["S311", "S310"]
